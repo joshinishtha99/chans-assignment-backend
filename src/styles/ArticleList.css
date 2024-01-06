@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.ArticleList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 100px;
+    gap: 30px;
+}
+
+.ArticleEntry {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 20px;
+    width: 1300px;
+    padding: 30px 50px 40px;
+    gap: 2em;
+}
+
+.ArticleTopBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #1e1e1e;
+    gap: 5em;
+}
+
+.ArticleTitleAndAuthor {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1em;
+    background-color: #1e1e1e;
+    order: 1
+}
+
+.SideIcons {
+    display: flex;
+    background: transparent;
+    gap: 2em;
+    order: 2;
+}
+
+.iconBox {
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 9px 5px 11px;
+    transition: transform 0.3s ease;
+}
+
+.iconBox:hover {
+    transform: translate(-3px, -3px);
+}
+
+.icon {
+    color: white;
+    background: transparent;
+}
+
+.ArticleTitle { 
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #1e1e1e;
+}
+
+.ArticleAuthor {
+    color: grey;
+    font-size: 15px;
+    background-color: #1e1e1e;
+}
+
+.ArticleDescription {
+    color: rgb(91, 84, 84);
+    background-color: #1e1e1e;
+    margin-top: -20px;
+}
+
+.ArticleBody {
+    color: white;
+    background-color: #1e1e1e;
+    margin-top: -10px;
+}

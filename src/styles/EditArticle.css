@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.ArticleBoxBorder {
+    border-radius: 20px;
+    width: 800px;
+    height: 1000px;
+    background: linear-gradient(180deg, #A5219B 0%, #54ADFF 100%);
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ArticleBox {
+    border-radius: 20px;
+    width: 99%;
+    height: 99%;
+    background-color: #1e1e1e;
+    align-self: center;
+
+    padding: 30px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.Heading {
+    color: white;
+    background-color: #1e1e1e;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ArticleEntries {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+}
+
+.EntryRecord {
+    background-color: rgb(46, 42, 42);
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.EntryRecord::placeholder{
+    color: #becef7;
+    font-size: 16px;
+}
+
+.EntryDesc {
+    background-color: rgb(46, 42, 42);
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.EntryDesc::placeholder{
+    color: #becef7;
+    font-size: 16px;
+}
+
+.EntryBody {
+    background-color: rgb(46, 42, 42);
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 600px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.EntryBody::placeholder{
+    color: #becef7;
+    font-size: 16px;
+}
+
+.UpdateButton {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    width:fit-content;
+    align-content: center;
+    transition: transform 0.3s ease;
+}
+
+.UpdateButton:hover {
+    transform: translate(-3px, -3px);
+}

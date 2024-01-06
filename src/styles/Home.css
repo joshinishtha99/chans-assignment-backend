@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.home {
+    background-color: black;
+    padding: 250px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.EntryText {
+    background-color: black;
+    font-size: 105px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: white;
+}
+
+.SignupPrompt {
+    align-content: center;
+    display: flex;
+    background: black;
+    gap: 1em;
+}
+
+.SignupText {
+    color: rgb(221, 187, 187);
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.SignupButton {
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #becef7;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #000;
+    transition: transform 0.3s ease;
+    margin-top: -9px;
+}
+
+.SignupButton:hover{
+    transform: translate(-3px, -3px);
+}

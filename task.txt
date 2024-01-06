@@ -1,0 +1,19 @@
+make a simple node express server which should contain
+
+1. user login/ signup 
+	user Schema: {
+	name : string,
+	dob: string,
+	hobbies: Array<string>,
+	age: number	
+}
+
+
+2. CRUD operation for articles
+	articles Schema : {
+	tile : string,
+	author: string,
+	description: string,
+	doby: string,
+	date: Date,
+}
